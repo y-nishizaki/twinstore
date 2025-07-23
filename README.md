@@ -59,7 +59,7 @@ pip install twinstore
 - Python 3.8以上
 - 主要ライブラリ: numpy, pandas, scikit-learn, dtaidistance, matplotlib, plotly
 
-詳細な依存関係は[requirements_twinstore.txt](requirements_twinstore.txt)を参照してください。
+詳細な依存関係は[requirements.txt](requirements.txt)を参照してください。
 
 ## 🎯 主な機能
 
