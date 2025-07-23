@@ -1,16 +1,16 @@
-# Core dependencies for TwinStore package
-numpy>=1.20.0          # p$�
-pandas>=1.3.0          # ����
-scikit-learn>=0.24.0   # _�f���ƣ�ƣ
-dtaidistance>=2.3.0    # DTW�
-matplotlib>=3.4.0      # �,�j�
-seaborn>=0.11.0        # q��
-plotly>=5.0.0          # ���ƣ��
-scipy>=1.7.0           # q�
-reportlab>=3.6.0       # PDF
-openpyxl>=3.0.0        # Excel�\
-pydantic>=1.8.0        # ����������
+# TwinStore売上予測パッケージの依存関係
+numpy>=1.20.0          # 数値計算ライブラリ
+pandas>=1.3.0          # データ操作・分析
+scikit-learn>=0.24.0   # 機械学習ライブラリ
+dtaidistance>=2.3.0    # DTWアルゴリズム実装
+matplotlib>=3.4.0      # グラフ描画
+seaborn>=0.11.0        # 統計的可視化
+plotly>=5.0.0          # インタラクティブ可視化
+scipy>=1.7.0           # 科学計算ライブラリ
+reportlab>=3.6.0       # PDFレポート生成
+openpyxl>=3.0.0        # Excel読み書き
+pydantic>=1.8.0        # データバリデーション
 
 # Optional: API support
-# fastapi>=0.68.0        # REST API�׷��	
-# uvicorn>=0.15.0        # ASGI server�׷��	
+# fastapi>=0.68.0        # REST APIフレームワーク（オプション）
+# uvicorn>=0.15.0        # ASGI server（オプション）
